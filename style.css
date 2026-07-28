@@ -97,3 +97,44 @@ img {
   margin-left: 170px;
   text-transform: capitalize;
 }
+
+
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 16px 13px;
+  gap: 30px;
+  margin-top: 45px;
+  color: white;
+}
+
+.forecast .day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  
+}
+
+.forecast .day p {
+  font-size: 15px;
+  opacity: 0.85;
+  margin-bottom: 6px;
+  color: white;
+}
+
+.forecast .day img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+}
+
+.forecast .day h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
